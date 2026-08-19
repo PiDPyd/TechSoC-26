@@ -19,7 +19,7 @@ Upon loading it
 
 ### Custom features
 
-1. Stylyzed the whole program
+1. Stylized the whole program
 2. Added Error handling
 3. Added multiport managing , on individual report basis
 4. Integrated both problem statements into a application
@@ -27,8 +27,9 @@ Upon loading it
 
 ### To maintain clean code , code has been divided into modules.
 ```
-report_loader.py◄──────Main.py──────►create_report.py
-                        │
-                        ▼
-                   Functions.py
+report_loader.py──────►Main.py◄──────create_report.py
+        ▲                ▲
+        └───────┬────────┘
+                ▲
+           Functions.py
 ```
