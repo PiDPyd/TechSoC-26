@@ -11,7 +11,7 @@ the program saves the report for the respective port and shipment in a txt file.
 You can now perform actions for each shipment report you give, by loading it.
 Upon loading it 
 1. Viewing basic report is Solution of Level-1 
-and other Options are solutions of individual parts of Level-2
+2. other Options are solutions of individual parts of Level-2
 
 ## Run main.py to start the program
 
@@ -26,9 +26,9 @@ and other Options are solutions of individual parts of Level-2
 
 
 ### To maintain clean code , code has been divided into modules.
-The file structure is:
-
-report_loader.py<----Main.py---->create_report.py
-    |-------------------|--------------|
-                        |
-                  Functions.py
+```
+report_loader.py◄──────Main.py──────►create_report.py
+                        │
+                        ▼
+                   Functions.py
+```
