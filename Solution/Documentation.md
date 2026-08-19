@@ -3,7 +3,7 @@
 ---
 
 ### Workings of the program
-The program is upgraded to a multiport and multiship manager. [No unique ship and port identification, it works on individual report basis]
+The program is upgraded to a multiport and multiship manager (No unique ship and port identification, it works on individual report basis)
 To begin with You need to create a report, provide any shipment-ID you want, Enter the data [Same input format as given in Level-1]
 press **Enter** when you all the weights have been entered.
 the program saves the report for the respective port and shipment in a txt file.
@@ -13,7 +13,7 @@ Upon loading it
 1. Viewing basic report is Solution of Level-1 
 2. other Options are solutions of individual parts of Level-2
 
-## Run main.py to start the program
+## Run main.py to start the program (use full terminal window)
 
 ---
 
